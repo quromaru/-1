@@ -3,7 +3,7 @@ name: Monthly Steam Report
 on:
   schedule:
     - cron: "0 0 1 * *"  # 毎月1日の00:00に実行
-  workflow_dispatch:  # これがないと手動実行できない！
+  workflow_dispatch:  # 手動実行も可能にする
 
 jobs:
   steam_report:
